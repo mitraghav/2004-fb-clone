@@ -1,0 +1,43 @@
+# Shaab Ji's minimal Python .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+build/
+dist/
+.eggs/
+
+# Virtual env
+.venv/
+venv/
+env/
+ENV/
+
+# Env & secrets
+.env
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs & DB
+*.log
+db.sqlite3
+db.sqlite3-journal
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
